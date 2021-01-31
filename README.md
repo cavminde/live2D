@@ -17,9 +17,7 @@ Add Live2D widget to web page. Compatible with PJAX.
 
 ## 示例 Demo
 
-在[米米的博客](https://zhangshuqiao.org)的左下角可查看效果。（注：以下人物模型仅供展示之用，本仓库并不包含任何模型。）
-
-<img src="assets/screenshot-2.png" width="280"><img src="assets/screenshot-3.png" width="280"><img src="assets/screenshot-1.png" width="270">
+在[博客](https://zhangshuqiao.org)的左下角可查看效果。（注：以下人物模型仅供展示之用，本仓库并不包含任何模型。）
 
 你也可以在允许的范围内进行二次开发，这里有一些示例
 
@@ -105,8 +103,6 @@ https://example.com/path/to/live2d-widget/
 如果有任何疑问，欢迎提 Issue。如果有任何修改建议，欢迎提 Pull Request。
 
 ## 鸣谢 Thanks
-<a href="https://www.jsdelivr.com"><img height="80" src="https://raw.githubusercontent.com/jsdelivr/jsdelivr-media/master/default/svg/jsdelivr-logo-horizontal.svg"></a>
-
 > 感谢 jsDelivr 提供的 CDN 服务。  
 > Thanks jsDelivr for providing public CDN service.
 
