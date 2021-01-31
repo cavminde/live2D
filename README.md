@@ -43,7 +43,7 @@ Font Awesome (v4 or v5) is required for this plugin. Take Font Awesome v4 as an 
 ```
 如果网站启用了 PJAX，由于看板娘不必每页刷新，因此要注意将相关脚本放到 PJAX 刷新区域之外。
 
-换句话说，如果你是小白，或者只需要最基础的功能，就只用把这一行代码，连同前面加载 Font Awesome 的一行代码，一起放到 html 的 `<head>` 中即可。  
+只需要最基础的功能，就只用把这一行代码，连同前面加载 Font Awesome 的一行代码，一起放到 html 的 `<head>` 中即可。  
 对于用各种模版引擎（例如 Nunjucks，Jinja 或者 PHP）生成的页面，也要自行修改，方法类似，只是可能略为麻烦。以 [Hexo](https://hexo.io) 为例，需要在主题相关的 ejs 或 njk 模版中正确配置路径，才可以加载。
 
 **但是！我们强烈推荐自己进行配置，否则很多功能是不完整的，并且可能产生问题！**  
@@ -105,12 +105,6 @@ https://example.com/path/to/live2d-widget/
 如果有任何疑问，欢迎提 Issue。如果有任何修改建议，欢迎提 Pull Request。
 
 ## 鸣谢 Thanks
-
-<a href="https://www.browserstack.com/"><img height="80" src="https://live.browserstack.com/images/opensource/browserstack-logo.svg" alt="BrowserStack Logo"></a>
-
-> 感谢 BrowserStack 容许我们在真实的浏览器中测试此项目。  
-> Thanks to [BrowserStack](https://www.browserstack.com/) for providing the infrastructure that allows us to test in real browsers!
-
 <a href="https://www.jsdelivr.com"><img height="80" src="https://raw.githubusercontent.com/jsdelivr/jsdelivr-media/master/default/svg/jsdelivr-logo-horizontal.svg"></a>
 
 > 感谢 jsDelivr 提供的 CDN 服务。  
@@ -161,10 +155,3 @@ http://www.live2d.com/eula/live2d-open-software-license-agreement_en.html
 > The terms and conditions do prohibit modification, but obfuscating in `live2d.min.js` would not be considered illegal modification.
 
 https://community.live2d.com/discussion/140/webgl-developer-licence-and-javascript-question
-
-## 更新 Update
-
-2018年10月31日，由 fghrsh 提供的原 API 停用，请更新至新地址。参考文章：  
-https://www.fghrsh.net/post/170.html
-
-2020年1月1日起，本项目不再依赖于 jQuery。
